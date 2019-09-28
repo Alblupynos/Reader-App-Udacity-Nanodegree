@@ -18,4 +18,8 @@
     <dimen name="recycler_view_padding_top">116dp</dimen>
     <dimen name="recycler_view_padding_bottom">28dp</dimen>
 
+    <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="elevation_fab">6dp</dimen>
+    <dimen name="elevation_card">4dp</dimen>
+
 </resources>

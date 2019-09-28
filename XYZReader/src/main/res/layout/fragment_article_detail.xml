@@ -43,6 +43,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                android:elevation="@dimen/elevation_toolbar"
                 app:layout_collapseMode="pin"
                 app:navigationIcon="@drawable/ic_arrow_back" />
 
@@ -74,13 +75,11 @@
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:fabSize="normal"
-        android:elevation="6dp"
         android:layout_gravity="bottom|end"
-        app.pressedTranslationZ="12dp"
-        android:src="@drawable/ic_share"
         android:layout_margin="16dp"
-        android:stateListAnimator="@anim/fab_state_list_anim"
-        android:contentDescription="@string/action_share"/>
+        android:contentDescription="@string/action_share"
+        android:elevation="@dimen/elevation_fab"
+        android:src="@drawable/ic_share"
+        app:fabSize="normal" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
