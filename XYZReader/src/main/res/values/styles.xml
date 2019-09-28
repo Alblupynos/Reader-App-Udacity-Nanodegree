@@ -29,4 +29,13 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="toolbar_title_collapsed" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="toolbar_title_expanded" parent="toolbar_title_collapsed">
+        <item name="android:textSize">26sp</item>
+    </style>
+
 </resources>
